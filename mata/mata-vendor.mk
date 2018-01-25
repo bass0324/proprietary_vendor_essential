@@ -19,11 +19,13 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libcxaudiohidlib_embcb_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcxaudiohidlib_embcb_jni.so \
     vendor/essential/mata/proprietary/vendor/lib64/libusb1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libusb1.0.so \
     vendor/essential/mata/proprietary/bin/fastboot:system/bin/fastboot \
+    vendor/essential/mata/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/essential/mata/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/essential/mata/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/essential/mata/proprietary/etc/permissions/vendor-essential-hardware-sidecar.xml:system/etc/permissions/vendor-essential-hardware-sidecar.xml \
+    vendor/essential/mata/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/essential/mata/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/essential/mata/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/essential/mata/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
