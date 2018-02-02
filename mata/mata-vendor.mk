@@ -906,6 +906,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleWCD9335 \
     Klik \
     qcrilmsgtunnel \
+    uceShimService \
     QtiTelephonyService \
     SVIService \
     TimeService \
